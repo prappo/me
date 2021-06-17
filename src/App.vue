@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="me">My Image here</div>
+    
     <IntroSection></IntroSection>
     <SkillsSection></SkillsSection>
   </div>
@@ -12,9 +12,8 @@ import SkillsSection from "./components/SkillsSection.vue";
 </script>
 
 <style>
-#me {
-  position: fixed;
-  z-index: inherit;
+*{
+  font-family: 'Rubik', sans-serif; 
 }
 
 section {

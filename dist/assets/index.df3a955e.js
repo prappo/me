@@ -1,1 +1,0 @@
-import{p as s,a as e,o,c as a,b as n}from"./vendor.71672a03.js";s("data-v-ffdff048"),e();const t={class:"flex justify-center items-center h-screen"};n({expose:[],setup:s=>(s,e)=>(o(),a("div",t," I'm working 🔨 on my site. Coming Soon 😉 "))}).mount("#app");
