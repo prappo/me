@@ -1,3 +1,3 @@
 <template>
-    <section>Skills ( adding soon 😁 )</section>
+    <section id="skillsSection">Skills ( adding soon 😁 )</section>
 </template>
