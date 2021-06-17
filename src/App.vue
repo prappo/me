@@ -1,13 +1,27 @@
 <template>
-  <div class="flex justify-center items-center h-screen">
-    I'm working 🔨 on my site. Coming Soon 😉
+  <div>
+    
+    <IntroSection></IntroSection>
+    <SkillsSection></SkillsSection>
   </div>
 </template>
 
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
+import IntroSection from "./components/IntroSection.vue";
+import SkillsSection from "./components/SkillsSection.vue";
 </script>
+
+<style>
+*{
+  font-family: 'Rubik', sans-serif; 
+}
+
+section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+</style>
 
