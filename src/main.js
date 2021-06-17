@@ -5,6 +5,13 @@ import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import ScrollToPlugin from 'gsap/ScrollToPlugin'
 import { anim } from './libs/animation'
+import init_pointer from  './libs/pointer'
+
+init_pointer({
+    pointerColor: "#E33F54", // Css color
+    ringSize: 20, // Pixels
+    ringClickSize: 10 // Pixels when clicking
+})
 
 createApp(App).mount('#app')
 gsap.registerPlugin(ScrollTrigger);
