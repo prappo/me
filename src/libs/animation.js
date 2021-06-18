@@ -29,19 +29,19 @@ class Animation {
                 trigger: '#about',
                 start: 'center center',
                 scrub: true,
-                // markers: true,
+                markers: true,
             }
         });
 
         
 
         tl.to('#me',{
-            y: window.innerHeight - document.getElementById('me').getBoundingClientRect().height,
+            y: window.innerHeight - 200,
             width:"100px",
             borderRadius:"50%",
             border:"1px solid #E4E7EB",
             padding:"5px",
-            duration:3,
+            duration:150,
             
             onComplete: () => {
                 // alert('done')
@@ -60,13 +60,15 @@ class Animation {
                 trigger: '#worksSection',
                 start: 'top center',
                 scrub: true,
-                // markers: true,
+                markers: true,
             }
         });
-
+        tl.to('#skillIcons',{
+            opacity: 1,
+        })
         t2.to('#me',{
-           yPercent:100,
-           
+           yPercent:80,
+           duration:5,
         });
 
         
