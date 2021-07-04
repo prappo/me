@@ -29,7 +29,7 @@ class Animation {
                 trigger: '#about',
                 start: 'center center',
                 scrub: true,
-                markers: true,
+                // markers: true,
             }
         });
 
@@ -60,16 +60,16 @@ class Animation {
                 trigger: '#worksSection',
                 start: 'top center',
                 scrub: true,
-                markers: true,
+                // markers: true,
             }
         });
         tl.to('#skillIcons',{
             opacity: 1,
         })
-        t2.to('#me',{
-           yPercent:80,
-           duration:5,
-        });
+        // t2.to('#me',{
+        //    yPercent:80,
+        //    duration:5,
+        // });
 
         
     }

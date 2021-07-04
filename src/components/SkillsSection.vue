@@ -1,9 +1,9 @@
 <template>
-  <section id="skillsSection" class="flex justify-center items-center flex-col">
+  <section style="background-color:gainsbor" id="skillsSection" class="flex justify-center items-center flex-col">
     <h1 style="font-weight: 700" class="py-5 text-3xl">
-      Have good Experience with these 
+      Good at
     </h1>
-    <h1 style="font-weight: 100" class="py-5 text-3xl">language / tools / platforms</h1>
+    
     <div
       
       id="skillIcons"
