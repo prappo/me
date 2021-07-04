@@ -3,12 +3,14 @@
     
     <IntroSection></IntroSection>
     <SkillsSection></SkillsSection>
+  
   </div>
 </template>
 
 <script setup>
 import IntroSection from "./components/IntroSection.vue";
 import SkillsSection from "./components/SkillsSection.vue";
+
 </script>
 
 <style>
