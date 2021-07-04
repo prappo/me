@@ -32,7 +32,7 @@
           from-blue-400
           to-green-600
         "
-        >Artisan 🪄</b
+        >Artisan </b
       >
       and also
       <b
