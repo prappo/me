@@ -57,14 +57,14 @@
 </template>
 
 <script>
-import scrollImage from "../assets/scroll1.gif";
-import myImage from "../assets/me.jpg";
+// import scrollImage from "../assets/scroll1.gif";
+// import myImage from "../assets/me.jpg";
 export default {
   data() {
     return {
       helloText: "Hello",
-      scrollImage: scrollImage,
-      myImage: myImage,
+      scrollImage: '/assets/scroll1.gif',
+      myImage: '/assets/me.jpg',
     };
   },
   methods: {
