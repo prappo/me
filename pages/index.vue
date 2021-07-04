@@ -20,7 +20,7 @@ export default {
     var timeline = gsap.timeline({
       scrollTrigger:{
         trigger:'#scrollIcon',
-        scrub:2,
+        scrub:1,
         start:'top center',
         // markers:true,
       }
