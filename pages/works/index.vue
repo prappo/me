@@ -108,6 +108,7 @@ export default {
 
         },
       ],
+
       projects: [
         {
           name: 'Banner, Popup, Thumbnail, WooCommerce Product Image, Apps,Label maker',
@@ -122,7 +123,7 @@ export default {
           image: '/bgxremover.jpg',
           buttonText: 'View Details',
           link: 'https://wpcox.com/bgxremover',
-          stack: ['PHP', 'WordPress','AI'],
+          stack: ['PHP', 'WordPress', 'AI'],
           platform: ['WordPress']
         },
         {
