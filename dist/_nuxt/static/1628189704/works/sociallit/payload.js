@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/works/sociallit", {data:[{}],fetch:{},mutations:void 0});
